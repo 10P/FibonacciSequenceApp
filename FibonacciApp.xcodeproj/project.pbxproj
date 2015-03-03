@@ -13,6 +13,7 @@
 		CC68A9C11AA0103200002A07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC68A9C01AA0103200002A07 /* Images.xcassets */; };
 		CC68A9C41AA0103200002A07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC68A9C21AA0103200002A07 /* LaunchScreen.xib */; };
 		CC68A9D01AA0103200002A07 /* FibonacciAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68A9CF1AA0103200002A07 /* FibonacciAppTests.swift */; };
+		CC68A9DA1AA013B200002A07 /* FibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC68A9D91AA013B200002A07 /* FibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CC68A9C91AA0103200002A07 /* FibonacciAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC68A9CE1AA0103200002A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC68A9CF1AA0103200002A07 /* FibonacciAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciAppTests.swift; sourceTree = "<group>"; };
+		CC68A9D91AA013B200002A07 /* FibonacciSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				CC68A9B91AA0103200002A07 /* AppDelegate.swift */,
 				CC68A9BB1AA0103200002A07 /* ViewController.swift */,
 				CC68A9BD1AA0103200002A07 /* Main.storyboard */,
+				CC68A9D91AA013B200002A07 /* FibonacciSequence.swift */,
 				CC68A9C01AA0103200002A07 /* Images.xcassets */,
 				CC68A9C21AA0103200002A07 /* LaunchScreen.xib */,
 				CC68A9B71AA0103200002A07 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC68A9DA1AA013B200002A07 /* FibonacciSequence.swift in Sources */,
 				CC68A9BC1AA0103200002A07 /* ViewController.swift in Sources */,
 				CC68A9BA1AA0103200002A07 /* AppDelegate.swift in Sources */,
 			);
